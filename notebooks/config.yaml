@@ -1,0 +1,7 @@
+train_path: /content/drive/My Drive/Constructor_Academy/Gitlab/justin-villard/04_MachineLearning/day6/features_train.csv
+options:
+  model: 'xgboost'
+  something else: [0,1,2]
+  eda: True
+preprocessing:
+  cols_to_drop: [ID, 'test']

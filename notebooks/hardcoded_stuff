@@ -1,0 +1,13 @@
+Paths:
+train_path= '/content/drive/My Drive/Constructor_Academy/Gitlab/justin-villard/04_MachineLearning/day6/features_train.csv'
+target_path= '/content/drive/My Drive/Constructor_Academy/Gitlab/justin-villard/04_MachineLearning/day6/target_train.csv'
+
+Data processing:
+X = data.drop(columns=['Id'])
+
+Names (e.g. experiment), hyperparameters,
+
+Comment out:
+- Installation lines
+- Platform-specific fixes/workarounds/etc. (e.g. Colab
+)
