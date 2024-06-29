@@ -1,5 +1,7 @@
 FROM python:3.12-alpine
 
+RUN apk update && apk add build-base
+
 EXPOSE 5001/tcp
 WORKDIR /app
 
