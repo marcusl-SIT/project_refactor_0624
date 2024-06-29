@@ -22,9 +22,9 @@ def plot(col):
     if col in df.columns:
         fig, ax = plt.subplots()
         df[col].plot(ax=ax)
-        fig.savefig('static/plot.png', format="png")
+        fig.savefig(f'static/{col}_plot.png', format="png")
         plt.close(fig)
-        img_tag = "<img src='/static/plot.png'/>"
+        img_tag = f"<img src='/static/{col}_plot.png'/>"
         return img_tag
     else:
         return f"Column '{col}' not found in DataFrame."
